@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Store Online Clone</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- External CSS Stylesheet -->
+  <link rel="stylesheet" href="./store.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. GLOBAL NAVIGATION BAR SECTION
+       ========================================== -->
+  <header class="global-nav-container">
+    <nav class="global-nav">
+      <a href="#" class="nav-logo" aria-label="Apple Home"><i class="fa-brands fa-apple"></i></a>
+      <a href="#" class="nav-item">Store</a>
+      <a href="#" class="nav-item">Mac</a>
+      <a href="#" class="nav-item">iPad</a>
+      <a href="#" class="nav-item">iPhone</a>
+      <a href="#" class="nav-item">Watch</a>
+      <a href="#" class="nav-item">AirPods</a>
+      <a href="#" class="nav-item">TV & Home</a>
+      <a href="#" class="nav-item">Entertainment</a>
+      <a href="#" class="nav-item">Accessories</a>
+      <a href="#" class="nav-item">Support</a>
+      <a href="#" class="nav-icon" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#" class="nav-icon" aria-label="Shopping Bag"><i class="fa-solid fa-bag-shopping"></i></a>
+    </nav>
+  </header>
+
+  <!-- ==========================================
+       2. PROMOTIONAL OFFER BANNER
+       ========================================== -->
+  <section class="offer-banner">
+    <p>
+      Get up to 6 months of No Cost EMI plus ₹15000.00 instant cashback on selected products with eligible cards.
+      <a href="#">See offers &gt;</a>
+    </p>
+  </section>
+
+  <!-- MAIN STORE CONTENT WRAPPER -->
+  <main class="store-wrapper">
+
+    <!-- ==========================================
+         3. HERO / STORE HEADER SECTION
+         ========================================== -->
+    <section class="store-hero">
+      <div class="hero-headline">
+        <h1>Store<span>The best way to buy the products you love.</span></h1>
+      </div>
+      <div class="hero-assistance">
+        <div class="assist-card">
+  
+          <div class="assist-text">
+            <a href="#">Connect with a Specialist &gt;</a>
+          </div>
+        </div>
+        <div class="assist-card">
+          <div class="assist-text">
+            <a href="#">Find an Apple Store &gt;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         4. CATEGORY NAVIGATION SLIDER
+         ========================================== -->
+    <section class="category-slider-section">
+      <div class="horizontal-scroll category-list">
+        <div class="category-thumb">
+          <img src="images/mac.png" alt="Mac">
+          <span>Mac</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/iphone.png" alt="iPhone">
+          <span>iPhone</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/ipad.png" alt="iPad">
+          <span>iPad</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/apple watch.png" alt="Apple Watch">
+          <span>Apple Watch</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/airpods.png" alt="AirPods">
+          <span>AirPods</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/airtag.png" alt="AirTag">
+          <span>AirTag</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/apple tv 4k.png" alt="Apple TV 4K">
+          <span>Apple TV 4K</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/homepod.png" alt="HomePod">
+          <span>HomePod</span>
+        </div>
+        <div class="category-thumb">
+          <img src="images/accessories.png" alt="Accessories">
+          <span>Accessories</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         5. SECTION: "THE LATEST" PRODUCT CAROUSEL (IMAGE BACKGROUND CARDS)
+         ========================================== -->
+    <section class="store-section">
+      <h2 class="section-heading">The latest. <span>Take a look at what's new right now.</span></h2>      
+      <div class="horizontal-scroll cards-carousel">
+        
+        <!-- Card 1 -->
+        <div class="showcase-card bg-card" style="background-image: url('images/orange.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">NEW</span>
+            <h3 class="card-title">iPhone 17 Pro</h3>
+            <p class="card-subtitle">All out Pro.</p>
+            <span class="card-price">From ₹134900.00*</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="showcase-card bg-card" style="background-image: url('images/hand lap.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">NEW</span>
+            <h3 class="card-title">MacBook Neo</h3>
+            <p class="card-subtitle">The magic of Mac at a surprising price.</p>
+            <span class="card-price">From ₹79900.00*</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="showcase-card bg-card" style="background-image: url('images/yellow pad.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow orange-text">LIMITED TIME</span>
+            <h3 class="card-title">Buy Mac or iPad with education savings.</h3>
+            <p class="card-subtitle">And get AirPods with Mac and Apple Pencil with iPad.*</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="showcase-card bg-card" style="background-image: url('images/two mob.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">NEW</span>
+            <h3 class="card-title">iPhone 17e</h3>
+            <p class="card-subtitle">Feature stacked. Value packed.</p>
+            <span class="card-price">From ₹64900.00*</span>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="showcase-card bg-card" style="background-image: url('images/head ph.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <h3 class="card-title">AirPods Max 2</h3>
+            <p class="card-subtitle">New intelligent features. More immersive listening.</p>
+            <span class="card-price">From ₹67900.00*</span>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="showcase-card bg-card" style="background-image: url('images/fold lap.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <h3 class="card-title">MacBook Pro</h3>
+            <p class="card-subtitle">Now with M5, M5 Pro and M5 Max.</p>
+            <span class="card-price">From ₹239900.00*</span>
+          </div>
+        </div>
+
+      </div>
+  
+    </section>
+
+    <!-- ==========================================
+         6. SECTION: "THE APPLE STORE DIFFERENCE"
+         ========================================== -->
+    <section class="store-section">
+      <h2 class="section-heading">The Apple Store difference. <span>Even more reasons to shop with us.</span></h2>
+      <div class="horizontal-scroll difference-grid">
+        
+        <div class="feature-card">
+          <i class="fa-solid fa-credit-card feature-icon green-icon"></i>
+          <h4>No Cost EMI.<sup>§</sup> Plus Instant Cashback.<sup>^</sup></h4>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-arrows-rotate feature-icon blue-icon"></i>
+          <h4>Exchange your smartphone, get ₹2500.00 - ₹57000.00 in credit towards a new one.*</h4>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-brands fa-apple feature-icon red-icon"></i>
+          <h4>Customise your Mac.</h4>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-face-smile feature-icon purple-icon"></i>
+          <h4>Make them yours. Engrave a mix of emoji, names and numbers for free.</h4>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-box-open feature-icon green-icon"></i>
+          <h4>Enjoy free delivery, or easy pickup from an Apple Store.</h4>
+        </div>
+
+        <div class="feature-card">
+          <i class="fa-solid fa-mobile-screen-button feature-icon blue-icon"></i>
+          <h4>Trade in your eligible Mac, Apple Watch or iPad for instant credit.*</h4>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         7. SECTION: "HELP IS HERE" (BACKGROUND IMAGES)
+         ========================================== -->
+    <section class="store-section">
+      <h2 class="section-heading">Help is here. <span>Whenever and wherever you need it.</span></h2>
+      <div class="horizontal-scroll cards-carousel">
+        
+        <div class="showcase-card bg-card" style="background-image: url('images/v.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">APPLE SPECIALIST</span>
+            <h3 class="card-title">Shop with a Specialist over video.</h3>
+            <p class="card-subtitle">Choose your next device in a guided, one-way video session.</p>
+          </div>
+        </div>
+
+        <div class="showcase-card bg-card" style="background-image: url('images/specialist.png');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">APPLE SPECIALIST</span>
+            <h3 class="card-title">Shop one on one with a Specialist online.</h3>
+          </div>
+        </div>
+
+        <div class="showcase-card bg-card" style="background-image: url('images/explore.png');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">TODAY AT APPLE</span>
+            <h3 class="card-title">Explore Apple Intelligence</h3>
+            <p class="card-subtitle">Come and try it for yourself in a free session at the Apple Store.</p>
+          </div>
+        </div>
+
+        <div class="showcase-card bg-card" style="background-image: url('images/store.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">TODAY AT APPLE</span>
+            <h3 class="card-title">Join free sessions at your Apple Store.</h3>
+            <p class="card-subtitle">Learn about the latest features and how to go further with your Apple devices.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         8. SECTION: ACCESSORIES
+         ========================================== -->
+    <section class="store-section">
+      <h2 class="section-heading">Accessories. <span>Essentials that pair perfectly with your favourite devices.</span></h2>
+      <div class="horizontal-scroll cards-carousel">
+        
+        <div class="showcase-card bg-card" style="background-image: url('images/red apple.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <h3 class="card-title">Here and now.</h3>
+            <p class="card-subtitle">The accessories you love. In a fresh mix of colours.</p>
+          </div>
+        </div>
+
+        <div class="accessory-card">
+          <div class="accessory-img">
+            <img src="images/red apple2.jpg" alt="iPhone Case">
+          </div>
+          <div class="accessory-details">
+            <span class="card-eyebrow orange-text">NEW</span>
+            <h4>iPhone 17 Pro Silicone Case with MagSafe - Bright Guava</h4>
+            <p class="accessory-price">MRP ₹4900.00 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <div class="accessory-card">
+          <div class="accessory-img">
+            <img src="images/thred.jpg" alt="Crossbody Strap">
+          </div>
+          <div class="accessory-details">
+            <span class="card-eyebrow orange-text">NEW</span>
+            <h4>Crossbody Strap - Bright Guava</h4>
+            <p class="accessory-price">MRP ₹5900.00 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <div class="accessory-card">
+          <div class="accessory-img">
+            <img src="images/o.jpg" alt="MagSafe Charger">
+          </div>
+          <div class="accessory-details">
+            <h4>MagSafe Charger (1m)</h4>
+            <p class="accessory-price">MRP ₹4500.00 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <div class="accessory-card">
+          <div class="accessory-img">
+            <img src="images/pink.jpg" alt="Sport Band">
+          </div>
+          <div class="accessory-details">
+            <h4>46mm Clementine Sport Band - M/L</h4>
+            <p class="accessory-price">MRP ₹4500.00 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         9. SECTION: LOUD AND CLEAR (AUDIO)
+         ========================================== -->
+    <section class="store-section">
+      <h2 class="section-heading">Loud and clear. <span>Unparalleled choices for rich, high-quality sound.</span></h2>
+      <div class="horizontal-scroll cards-carousel">
+        
+        <div class="showcase-card bg-card" style="background-image: url('images/music.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <h3 class="card-title">Get 3 months of Apple Music free.</h3>
+            <p class="card-subtitle">Included with the purchase of selected Apple devices.*</p>
+          </div>
+        </div>
+
+        <div class="accessory-card">
+          <div class="accessory-img">
+            <img src="images/black head ph.jpg" alt="AirPods Max">
+          </div>
+          <div class="accessory-details">
+            <h4>AirPods Max 2 - Midnight</h4>
+            <p class="accessory-price">MRP ₹67900.00 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <div class="accessory-card">
+          <div class="accessory-img">
+            <img src="white air.jpg" alt="AirPods Pro 3">
+          </div>
+          <div class="accessory-details">
+            <span class="card-eyebrow">FREE ENGRAVING</span>
+            <h4>AirPods Pro 3</h4>
+            <p class="accessory-price">MRP ₹25900.00 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+        <div class="accessory-card">
+          <div class="accessory-img">
+            <img src="images/second white air.jpg" alt="HomePod mini">
+          </div>
+          <div class="accessory-details">
+            <h4>HomePod mini - Orange</h4>
+            <p class="accessory-price">MRP ₹10900.00 (incl. of all taxes)</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         10. SECTION: THE APPLE EXPERIENCE
+         ========================================== -->
+    <section class="store-section">
+      <h2 class="section-heading">The Apple experience. <span>Do even more with Apple products and services.</span></h2>
+      <div class="horizontal-scroll cards-carousel">
+        
+        <div class="showcase-card bg-card" style="background-image: url('images/multi lap.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">APPLE INTELLIGENCE</span>
+            <h3 class="card-title">Create, communicate and get things done effortlessly.</h3>
+          </div>
+        </div>
+
+        <div class="showcase-card bg-card" style="background-image: url('images/run.png');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">TODAY AT APPLE</span>
+            <h3 class="card-title">Join the fun at Apple Camp.</h3>
+            <p class="card-subtitle">Create a helpful superhero in a free session on iPad. For kids aged 6-10.</p>
+          </div>
+        </div>
+
+        <div class="showcase-card bg-card" style="background-image: url('images/design.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">CONTINUITY</span>
+            <h3 class="card-title">Powerful alone. Superpowered together.</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         11. SECTION: SAVINGS AND OFFERS
+         ========================================== -->
+    <section class="store-section">
+      <h2 class="section-heading">Savings and offers. <span>Exclusive deals, special stores and more.</span></h2>
+      <div class="horizontal-scroll cards-carousel">
+        
+        <div class="showcase-card bg-card" style="background-image: url('images/final.jpg');">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">EDUCATION</span>
+            <h3 class="card-title">Get up to ₹15000.00 instant cashback on selected products with eligible cards.</h3>
+            <p class="card-subtitle">Plus, get AirPods with Mac and Apple Pencil with iPad.*</p>
+          </div>
+    
